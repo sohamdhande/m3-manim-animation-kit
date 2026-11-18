@@ -1,0 +1,105 @@
+\documentclass[10pt,a4paper]{article}
+\usepackage[margin=0.52in]{geometry}
+\usepackage{amsmath,amssymb}
+\usepackage{booktabs}
+\usepackage{tabularx}
+\usepackage{xcolor}
+\usepackage{colortbl}
+\usepackage{hyperref}
+
+\definecolor{navy}{HTML}{0D1117}
+\definecolor{slate}{HTML}{1B2838}
+\definecolor{rowtint}{HTML}{F1F5F9}
+
+\setlength{\parindent}{0pt}
+\setlength{\parskip}{4pt}
+\renewcommand{\arraystretch}{1.22}
+
+\begin{document}
+
+% Header Banner — Replace placeholders with your own title, name, and Student ID
+\noindent\colorbox{navy}{\parbox{\dimexpr\textwidth-2\fboxsep\relax}{%
+\vspace{8pt}
+\hspace{8pt}{\color{white}\Large\bfseries YOUR PROJECT TITLE: Six-Scene Educational Storyboard}\\[4pt]
+\hspace{8pt}{\color[HTML]{8AEAD8}\normalsize Your Focused Mathematical Subtitle \quad|\quad M3 First-Year Undergraduate Mathematics}\\[6pt]
+\hspace{8pt}{\color[HTML]{CBD5E1}\small \textbf{Student:} Your Name \quad\textbullet\quad \textbf{Student ID:} YOUR\_ID \quad\textbullet\quad \textbf{Format:} 1920$\times$1080, 30 fps, 16:9 MP4 \quad\textbullet\quad \textbf{Target:} 5:00}
+\vspace{8pt}
+}}
+
+\vspace{8pt}
+
+\section*{\color{slate}1. Learning Objective \& Mathematical Scope}
+\textbf{Learning Objective:} By the end of this video, the viewer will be able to explain \textit{[insert your focused concept]}, verify \textit{[insert your worked example]}, and interpret \textit{[insert the geometric/structural meaning]}.
+
+\vspace{4pt}
+\noindent\colorbox{rowtint}{\parbox{\dimexpr\textwidth-2\fboxsep\relax}{%
+\vspace{4pt}
+\begin{tabularx}{\linewidth}{@{}l X@{}}
+\textbf{Core Definition / Rule:} & \textit{Insert your main formula, e.g., $A\vec{v} = \lambda\vec{v}$ or $\nabla f(x,y) = (\partial f/\partial x, \partial f/\partial y)$} \\[4pt]
+\textbf{Worked Example:} & \textit{Insert your concrete numerical example and verified final result} \\[4pt]
+\textbf{Geometric Meaning:} & \textit{State what the final numbers mean visually}
+\end{tabularx}
+\vspace{4pt}
+}}
+
+\section*{\color{slate}2. Hybrid Visual System \& Audio Specification}
+\begin{tabularx}{\textwidth}{@{}l X l X@{}}
+\toprule
+\textbf{Canvas} & Deep charcoal/navy (\texttt{\#0D1117}) & \textbf{Primary Highlight} & Cyan (\texttt{\#53D8FB}) \\
+\textbf{Reference Layer} & Subdued blue/grey (\texttt{\#526477}) & \textbf{Secondary Highlight} & Amber (\texttt{\#FFB84D}) \\
+\textbf{Active / Transformed} & Restrained bright teal (\texttt{\#55D6BE}) & \textbf{Tracked Point} & Coral (\texttt{\#FF718D}) \\
+\textbf{Narration Voice} & Gemini TTS (\texttt{Kore}, $\sim$500--560 words) & \textbf{Music / Assets} & No background music (or credit track here) \\
+\bottomrule
+\end{tabularx}
+
+\section*{\color{slate}3. Six-Scene Production Storyboard}
+
+\small
+\begin{tabularx}{\textwidth}{@{}p{2.0cm} p{1.45cm} X X@{}}
+\toprule
+\rowcolor{slate}
+{\color{white}\textbf{Scene}} & {\color{white}\textbf{Timing}} & {\color{white}\textbf{Visual Action \& On-Screen Formulae}} & {\color{white}\textbf{Narration Focus \& Transition}} \\
+\midrule
+
+\textbf{1. Hook / Context} &
+0:00--0:30\newline ($\sim$30\,s) &
+Opening title frame (title, concept, your name \& ID). Present an intriguing visual puzzle or geometric question. &
+Motivate why the concept matters before introducing heavy formulas. Smooth fade to Scene 2. \\
+\midrule
+
+\rowcolor{rowtint}
+\textbf{2. Concept Intro} &
+0:30--1:05\newline ($\sim$35\,s) &
+Introduce formal notation, objects, and definitions beside a clean geometric diagram. &
+Define every symbol clearly in natural spoken English before relying on it. \\
+\midrule
+
+\textbf{3. Visual Intuition} &
+1:05--2:10\newline ($\sim$65\,s) &
+Animate the core visual idea (grid, vector, curve, tangent, surface, or level set) step by step. &
+Build geometric understanding first so the viewer sees \textit{why} the math works. \\
+\midrule
+
+\rowcolor{rowtint}
+\textbf{4. Worked Example} &
+2:10--3:15\newline ($\sim$65\,s) &
+Show one carefully chosen numerical example with every intermediate calculation displayed cleanly. &
+Connect each arithmetic step directly to what moves or changes on screen. \\
+\midrule
+
+\textbf{5. Interpretation} &
+3:15--4:25\newline ($\sim$70\,s) &
+Connect the final numerical result back to geometry, scaling, direction, or optimality. &
+Explain assumptions, edge cases, and what the final value means visually. \\
+\midrule
+
+\rowcolor{rowtint}
+\textbf{6. Summary \& Credits} &
+4:25--5:00\newline ($\sim$35\,s) &
+Display three concise takeaway cards, followed by references, music credit, and AI disclosure. &
+Reinforce the learning objective clearly and close with transparent credits. \\
+\bottomrule
+\end{tabularx}
+
+\end{document}
+
